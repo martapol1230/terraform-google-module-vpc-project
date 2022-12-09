@@ -1,9 +1,3 @@
-### Instructions on how to build VPC
-
-
-### Please copy and paste below code
-
-```
 module "vpc"{
     source = "../"
     region       = "us-central1"
@@ -12,5 +6,3 @@ module "vpc"{
     subnet2_cidr = "10.0.2.0/24"
     subnet3_cidr = "10.0.3.0/24"
 }
-
-```
